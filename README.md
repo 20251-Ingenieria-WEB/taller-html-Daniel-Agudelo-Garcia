@@ -25,9 +25,11 @@ Una mini aplicación web que consume la [API pública de Rick and Morty](https:/
 
 ## 🧰 ¿Cómo ejecutar el proyecto?
 
-1. Clona el repositorio:
 
-```bash
+
+
+1. Clona el repositorio
+
 git clone https://github.com/tu-usuario/rick-and-morty-app.git
 
 2. Instala las dependencias:
@@ -36,6 +38,7 @@ npm install
 3. Inicia la aplicación:
 npm run dev
 
+```bash
 rick-and-morty-app/
 │
 ├── public/
