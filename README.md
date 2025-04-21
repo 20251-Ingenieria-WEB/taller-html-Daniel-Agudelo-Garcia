@@ -1,12 +1,52 @@
-# React + Vite
+# Rick and Morty App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una mini aplicación web que consume la [API pública de Rick and Morty](https://rickandmortyapi.com/). Permite buscar personajes por nombre, visualizar su imagen y especie, y ver más detalles como estado, género y origen. Este proyecto fue desarrollado como parte de un taller evaluativo para la materia de **Ingeniería Web**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Propósito del Proyecto
 
-## Expanding the ESLint configuration
+- Practicar el consumo de una API pública.
+- Aplicar conceptos de desarrollo web con HTML, CSS y JavaScript usando React.
+- Desarrollar una interfaz funcional y responsiva.
+- Aplicar buenas prácticas como el uso de componentes, manejo de estados y documentación del código.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tecnologías Utilizadas
+
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Rick and Morty API
+
+---
+
+## 🧰 ¿Cómo ejecutar el proyecto?
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/rick-and-morty-app.git
+
+2. Instala las dependencias:
+npm install
+
+3. Inicia la aplicación:
+npm run dev
+
+rick-and-morty-app/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── App.jsx            # Componente principal con la lógica
+│   ├── App.css            # Estilos de la aplicación
+│   └── index.js           # Punto de entrada
+│
+├── package.json
+└── README.md              # Este archivo
+
+
